@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <div>
+        <label>
+          First Name:*
+          <input type="text" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          Last Name:*
+          <input type="text" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          Email Address:*
+          <input type="email" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          Password:*
+          <input type="password" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          Confirm Password:*
+          <input type="password" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          Birthday:
+          <input type="date" />
+        </label>
+      </div>
+      <div>
+        <p>Gender Identity:</p>
+        <input type="radio" />Male <input type="radio" />Female
+        <input type="radio" />Non-binary <input type="radio" />I prefer not to
+        answer
+      </div>
+      <div>
+        <p>A short description about myself:</p>
+        <label>
+          <textarea cols="50" rows="5"></textarea>
+        </label>
+      </div>
+      <div>
+        <label>
+          Favorite Language:
+          <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Javascript</option>
+            <option>Python</option>
+            <option>Java</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" /> Yes, I would like to receive periodic email
+          updates
+        </label>
+      </div>
+      <input type="submit" value="Create Account" />
+    </form>
+    <p>* Indicates a required field</p>
+  </body>
+</html>
