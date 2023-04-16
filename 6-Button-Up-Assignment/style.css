@@ -1,0 +1,25 @@
+button {
+  margin: 20px;
+  text-align: center;
+}
+
+.search {
+  background-color: lightgray;
+  color: aquamarine;
+  border: 2px solid aquamarine;
+  border-radius: 40px;
+  padding: 2px 25px 5px 25px;
+}
+.plus {
+  background-color: aquamarine;
+  color: white;
+  border: 1px solid aquamarine;
+  border-radius: 50% 50%;
+}
+.account {
+  background-color: royalblue;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  padding: 5px 20px 5px 20px;
+}
