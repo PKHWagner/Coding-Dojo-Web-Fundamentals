@@ -1,0 +1,21 @@
+h1 {
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px 0 5px 10px;
+}
+h2 {
+  background-color: rebeccapurple;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+h3 {
+  background-color: lightblue;
+  color: darkslategrey;
+  text-align: right;
+  text-decoration: underline;
+  padding: 5px 10px 5px 0;
+}
+span {
+  color: aquamarine;
+}
