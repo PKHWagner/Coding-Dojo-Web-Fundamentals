@@ -1,0 +1,42 @@
+.billboard {
+  width: 900px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 25px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: darkslategray;
+}
+
+.bluerow {
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
+}
+
+.whiterow {
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+}
+
+.bluerowtwo {
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
+}
+
+img.octocat {
+  height: 200px;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
