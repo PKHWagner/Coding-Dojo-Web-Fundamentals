@@ -1,0 +1,39 @@
+.nav {
+  background-color: dimgrey;
+  color: white;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  margin-left: 25px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 40%;
+}
+
+.btn {
+  background-color: darkturquoise;
+  color: white;
+  box-shadow: 5px 5px black;
+  border: none;
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+}
+
+body {
+  font-family: monospace;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
