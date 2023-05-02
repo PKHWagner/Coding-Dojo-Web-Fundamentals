@@ -1,0 +1,3 @@
+function addToLikes(){
+  myLikes.innerText++
+}

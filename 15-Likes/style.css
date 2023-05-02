@@ -1,0 +1,19 @@
+#like_counter {
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 25px;
+}
+
+#like_counter div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#like_counter button {
+  background-color: gold;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  padding: 5px 15px;
+}
