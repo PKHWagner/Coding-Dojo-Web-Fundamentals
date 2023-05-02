@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start for styling for top banner*/
+
+#navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+#navbar button {
+  margin: 20px 0;
+  background-color: steelblue;
+  color: white;
+  border-radius: 0;
+  border: none;
+  padding: 2px 15px;
+  font-size: 18px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+/* end of styling for top banner*/
+
+/* start of styling for main body*/
+
+.main {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+
+}
+
+.left_col {
+  flex: 3;
+  margin: 20px;
+}
+
+/* start of styling for profilebox div */
+
+#profilebox {
+  background-color: floralwhite;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border: 2px solid silver;
+  border-top: 75px solid powderblue;
+  margin-bottom: 20px;
+}
+
+#profilebox h2 {
+  margin-bottom: 20px;
+}
+
+#profilebox p {
+  margin-bottom: 20px;
+}
+
+#profilebox a {
+  color: royalblue;
+}
+
+.user {
+  border-radius: 50%;
+  background-color: white;
+  height: 75px;
+
+  margin-top: -40px;
+  padding: 2px;
+  border: 2px solid silver;
+}
+
+.marker,
+.gear {
+  height: 15px;
+  margin-right: 5px;
+}
+
+/* end of styling for profilebox div */
+
+/* start of styling for edu div */
+
+/* .edu {
+  padding-bottom: 10px;
+} */
+
+.box {
+  background-color: floralwhite;
+  /* padding-left: 20px; */
+  padding-bottom: 10px;
+  border: 2px solid silver;
+  border-top: 50px solid dimgray;
+  margin-bottom: 20px;
+}
+
+.box>p {
+  padding-left: 20px;
+}
+
+.topper {
+  color: white;
+  margin-top: -35px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+#bold {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#transparent {
+  opacity: 0.5;
+  margin: 5px 0 15px 0;
+  padding-left: 20px;
+}
+
+/* end of styling for edu div */
+
+.right_col {
+  flex: 2;
+  margin: 20px 20px 20px 0;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-right: 20px; */
+}
+
+.picture {
+  border-radius: 50%;
+  background-color: white;
+  height: 35px;
+  padding: 2px;
+  border: 2px solid silver;
+}
+
+.requestbutton {
+  height: 35px;
+}
+
+.counter {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.friends p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-left: 20px;
+
+}
+
+.friends img {
+  margin-right: 5px;
+}
+
+.box a {
+  display: block;
+  border-top: 2px solid silver;
+  color: royalblue;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.request {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
